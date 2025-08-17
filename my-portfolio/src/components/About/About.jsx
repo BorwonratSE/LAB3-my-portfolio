@@ -2,6 +2,7 @@
 import { Code, Palette, Zap, Heart } from 'lucide-react';
 import './About.css';
 
+
 function About() {
   const skills = [
     { name: 'Frontend Development', icon: <Code size={24} />, color: '#3b82f6' },
