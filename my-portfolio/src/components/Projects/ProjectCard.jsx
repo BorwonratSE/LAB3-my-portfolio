@@ -2,8 +2,11 @@
 function ProjectCard({ project }) {
   return (
     <div className="project-card">
+      {/* ใส่รูปตรงนี้ */}
+      <img src={project.image}  className="project-image" />
       <h3>{project.title}</h3>
       <p>{project.description}</p>
+      
       
       {/* ปรับเพิ่มปุ่มหรือ link ได้ตาม data */}
       {project.link && (

@@ -155,7 +155,7 @@ function Contact() {
               <Mail size={24} />
               <div>
                 <h4>Email</h4>
-                <p>your.email@example.com</p>
+                <p>borwonrat_si67@live.rmutl.ac.th</p>
               </div>
             </div>
             
@@ -171,7 +171,7 @@ function Contact() {
               <MapPin size={24} />
               <div>
                 <h4>Location</h4>
-                <p>Bangkok, Thailand</p>
+                <p>Chiang Mai, Thailand</p>
               </div>
             </div>
             
@@ -179,13 +179,13 @@ function Contact() {
             <div className="social-links">
               <h4>Follow Me</h4>
               <div className="social-icons">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/BorwonratSE" target="_blank" rel="noopener noreferrer">
                   <Github size={24} />
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <Linkedin size={24} />
                 </a>
-                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <Twitter size={24} />
                 </a>
               </div>

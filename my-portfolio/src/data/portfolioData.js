@@ -1,35 +1,31 @@
-// src/data/portfolioData.js - ตัวอย่างที่นักศึกษาต้องทำ
+import blenderImg from '../images/blender.png';
+import projectImg from '../images/intro.png';
+import weatherImg from '../images/weather.png'; // อันนี้เหมือน project2.png ซ้ำกัน ลองเช็คชื่อไฟล์อีกที
+
 export const projects = [
   {
     id: 1,
     title: "Portfolio Website",
     description: "Intro",
-    image: "/images/intro.png",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    demoUrl: "https://my-ecommerce-demo.netlify.app",
-    githubUrl: "https://htmlpreview.github.io/?https://github.com/BorwonratSE/portfolio-website/blob/main/index.html",
-    featured: true
+    technologies: ["Portfolio Website"],
+    link: "https://htmlpreview.github.io/?https://github.com/BorwonratSE/portfolio-website/blob/main/index.html",
+    image: projectImg, // ใช้ import แทน path string
+    github: "https://github.com/BorwonratSE/portfolio-website/tree/main"
   },
   {
     id: 2,
     title: "Weather App",
     description: "Real-time weather application with location-based forecasts",
-    image: "/images/weather.png",
-    technologies: ["React", "OpenWeather API", "CSS3"],
-    demoUrl: "https://my-weather-app.netlify.app",
-    githubUrl: "https://htmlpreview.github.io/?https://github.com/BorwonratSE/my-weather-app/blob/main/index.html",
-    featured: false
+    technologies: ["Weather App"],
+    link: "https://htmlpreview.github.io/?https://github.com/BorwonratSE/my-weather-app/blob/main/index.html",
+    image: weatherImg, // ใช้ import แทน path string
+    github: "https://github.com/BorwonratSE/my-weather-app"
   },
   {
     id: 3,
     title: "Blender",
     description: "3D Model",
-    image: "/images/blender.png",
+    image: blenderImg, // ใช้ import แทน path string
     technologies: ["Blender"],
-    demoUrl: "",
-    githubUrl: "",
-    featured: false
-  },
-
-  // นักศึกษาเพิ่มอย่างน้อย 3 projects
+  }
 ];
