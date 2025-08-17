@@ -1,6 +1,6 @@
 import blenderImg from '../images/blender.png';
 import projectImg from '../images/intro.png';
-import weatherImg from '../images/weather.png'; // อันนี้เหมือน project2.png ซ้ำกัน ลองเช็คชื่อไฟล์อีกที
+import weatherImg from '../images/weather.png'; 
 
 export const projects = [
   {
